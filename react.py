@@ -23,4 +23,4 @@ def triple(num: float) -> float:
 
 tools = [TavilySearch(max_results=1), triple]
 
-llm = ChatOllama(model="qwen3:1.7b", temperature=0).bind_tools(tools=tools)
+llm = ChatOllama(model="lfm2", temperature=0).bind_tools(tools=tools)
