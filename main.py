@@ -2,6 +2,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 def main():
     print("ReAct LangGraph with Function Calling")
 
